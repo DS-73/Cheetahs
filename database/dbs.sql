@@ -19,6 +19,6 @@ CREATE TABLE Customer (
     account VARCHAR(255),
     transactions JSON,                
 
-    FOREIGN KEY (account) REFERENCES Account(id),
+    FOREIGN KEY (account) REFERENCES Account(account_no),
     
 );
